@@ -2,8 +2,6 @@
 
 An interactive geospatial visualization tool designed to display event density and locations across the Tulsa metropolitan area. 
 
-**[View Live Heat Map ✦](https://higherkey.github.io/tulsa-event-heat-map/)**
-
 ---
 
 ## 🌟 Overview
@@ -29,12 +27,25 @@ The Tulsa Event Heat Map provides a bird's-eye view of community activities, hel
 
 ## 🚀 Getting Started
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/higherkey/tulsa-event-heat-map.git
-   ```
-2. **Launch the application:**
-   Simply open `index.html` in a browser or use a local dev server.
+### Prerequisites
+- Node.js (LTS)
+- Angular CLI: `npm install -g @angular/cli`
+- .NET SDK 8+
+
+### Frontend
+
+```bash
+cd event-heatmap-ui
+npm install
+ng serve        # Starts at localhost:4200
+```
+
+### Backend
+
+```bash
+cd EventHeatmap.Api
+dotnet run      # Starts API server
+```
 
 ---
 
