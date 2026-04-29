@@ -19,10 +19,11 @@ The Tulsa Event Heat Map provides a bird's-eye view of community activities, hel
 
 ## 🛠️ Tech Stack
 
-- **Mapping Engine**: [Leaflet.js](https://leafletjs.com/) / [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js)
-- **Visualization**: Heatmap.js / Leaflet.heat
-- **Frontend**: HTML5, Vanilla CSS3, JavaScript (ES6+)
-- **Deployment**: GitHub Pages
+- **Frontend**: Angular (v21+)
+- **Mapping Engine**: [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js)
+- **Backend**: .NET Core / ASP.NET API
+- **Tooling**: TypeScript, Prettier, Vitest
+- **Deployment**: GitHub Pages / Azure
 
 ---
 
